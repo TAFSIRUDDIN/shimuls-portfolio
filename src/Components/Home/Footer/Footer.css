@@ -1,0 +1,38 @@
+.divi{
+    margin-top: 6rem;
+    /* margin-bottom: 5rem; */
+    background-color: black;
+    padding: 4rem;
+}
+.footer-head{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.footer-text a{
+    color: #f1f1f1;
+    font-family: 'Poppins', serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer-text a:hover{
+    text-decoration: none;
+    color: #0ce682;
+}
+.footer-bar{
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff80;
+    margin: 4px;
+    border-radius: 50px;
+}
+.footer-text span{
+    font-size: 90%;
+    color: #928d8d
+}
+.footer-text .divs{
+    padding: 10px;
+}

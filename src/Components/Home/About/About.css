@@ -1,0 +1,22 @@
+.about-text1{
+    text-align: right;
+}
+.about-text2{
+    text-align: left;
+}
+.about-img{
+    width: 90%;
+}
+.bars{
+    height: 10px;
+    width: 100%;
+    background-color: #5e505080;
+    margin: 4px;
+    border-radius: 50px;
+    margin-top: 9rem;
+    margin-bottom: 2rem;
+}
+.icons > a > img {
+    width: 50px;
+    padding: 5px;
+}

@@ -1,0 +1,10 @@
+.project-time{
+    margin-left: 75%;
+}
+.bar{
+    height: 10px;
+    width: 100%;
+    background-color: #ffffff80;
+    margin: 4px;
+    border-radius: 50px;
+}

@@ -1,0 +1,31 @@
+.mainNav{
+    display: block !important;
+}
+.mainNav >a{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.mainNav >button{
+    display: flex;
+    justify-content: center !important;
+}
+.mainNav-item > div{
+    margin: 0 auto !important;
+}
+
+.to>a{
+    font-size: 13px;
+    color: #ffffff !important;
+    line-height: 1;
+    -webkit-text-stroke: 0.5px;
+    /* white-space: nowrap; */
+    text-transform: uppercase;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    margin: 10px 15px;
+}
+.to>a:hover {
+    color: #a09999 !important;
+    border-bottom: 2px solid #0ce682 !important;
+}

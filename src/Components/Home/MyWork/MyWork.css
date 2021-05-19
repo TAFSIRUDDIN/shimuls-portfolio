@@ -1,0 +1,23 @@
+.works{
+    height: 100%;
+}
+.works nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0 !important;
+}
+.works nav a{
+    background-color: transparent !important;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    border: 0 !important;
+    margin-bottom: 15px !important;
+}
+.nav-link.active {
+    border-bottom: 2px solid rgb(230, 83, 83) !important;
+}
+/* .works nav a > .nav-link {
+    border: 0 !important;
+    border-top-left-radius: 0!important;
+     border-top-right-radius: 0!important;
+} */

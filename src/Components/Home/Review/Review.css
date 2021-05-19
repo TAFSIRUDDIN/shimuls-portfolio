@@ -1,0 +1,85 @@
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+.myCarousel {
+    /* background: #fafafa; */
+    margin-top: -9%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* border: 1px solid #ddd; */
+    height: 100%;
+  }
+.slide-image {
+    width: 24% !important;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+.containers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 30px; */
+
+  }
+  .rating {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row-reverse;
+   
+  }
+  .rating input {
+    position: relative;
+    width: 20px;
+    /* height: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .rating input::before {
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 34px;
+    position: absolute;
+    left: 4px;
+    color: #030b0f;
+    transform: 0.5s;
+
+
+  }
+  .rating input:nth-child(2n+1)::before{
+    right: 4px;
+    left: initial;
+  } 
+  /* .rating input:hover ~ input::before, */
+  /* .rating input:hover::before, */
+  .rating input:checked ~ input::before,
+  .rating input:checked::before {
+    color: gold;
+  }
